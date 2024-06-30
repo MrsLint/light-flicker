@@ -1,5 +1,4 @@
 input.onGesture(Gesture.Shake, function () {
-    led.toggle(0, 3)
     led.toggle(0, 4)
     led.toggle(4, 3)
     led.toggle(4, 4)
